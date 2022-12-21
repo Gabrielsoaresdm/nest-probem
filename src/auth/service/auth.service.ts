@@ -30,7 +30,7 @@ export class AuthService{
 
 
     async login(usuarioLogin: any) {
-        const payload = {userName: usuarioLogin.usuario, sub: "db_saudeebemestar"}
+        const payload = {username: usuarioLogin.usuario, sub: "db_saudeebemestar"}
 
         return{
             usuario: usuarioLogin.usuario,

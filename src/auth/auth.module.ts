@@ -20,7 +20,7 @@ import { LocalStrategy } from "./strategy/local.strategy";
         })
 
     ],
-    providers: [Bcrypt, AuthService, LocalStrategy, JwtStrategy, UsuarioService],
+    providers: [Bcrypt, AuthService, LocalStrategy, JwtStrategy],
     controllers: [AuthController],
     exports: [Bcrypt]
 
